@@ -30,58 +30,58 @@
 
 
 
-// // number 1
-// const person = {
-//     firstName: "Grace",
-//     lastName: "Ajayi",
-//     alert:function(){
-//         return this.lastName
-//     }
-// };
-//  alert(person.alert());
+// number 1
+const person = {
+    firstName: "Grace",
+    lastName: "Ajayi",
+    alert:function(){
+        return this.lastName
+    }
+};
+ alert(person.alert());
 
 
-// // number 2
+// number 2
 
-// const person1 = {
-//     firstName: "Olumide",
-//     lastName: "Atere",
-//     country: "Nigeria",
-// }
+const person1 = {
+    firstName: "Olumide",
+    lastName: "Atere",
+    country: "Nigeria",
+}
 
-// document.getElementById("demo1").innerHTML = person1.firstName + ' ' + person1.lastName + ' ' + ' is from' + ' ' + person1.country
+document.getElementById("demo1").innerHTML = person1.firstName + ' ' + person1.lastName + ' ' + ' is from' + ' ' + person1.country
 
-// // number 3
+// number 3
 
-// const person2 = {
-//     name: "John",
-//     age: 50,
-// }
+const person2 = {
+    name: "John",
+    age: 50,
+}
 
-// document.getElementById("demo2").innerHTML = 'age =' + ' ' + person2.age
+document.getElementById("demo2").innerHTML = 'age =' + ' ' + person2.age
 
-// // number 4
+// number 4
 
-// const cars = ['Saab', 'Volvo', 'BMW'];
+const cars = ['Saab', 'Volvo', 'BMW'];
 
-// document.getElementById("demo3").innerHTML = cars[1];
+document.getElementById("demo3").innerHTML = cars[1];
 
-// // number 5
+// number 5
 
-// const car = ["Volvo", "Jeep", "Mercedes"]
+const car = ["Volvo", "Jeep", "Mercedes"]
 
-// alert(car.length )
-
-
+alert(car.length )
 
 
-// const parameters = {
-//     userid: "your registered number",
-//     pass: "xyFfj4%djf@22",
-//     phone: "+2349064390415",
-//     user_ref: "user defined reference",
-//     network: ""
-// }
+
+
+const parameters = {
+    userid: "your registered number",
+    pass: "xyFfj4%djf@22",
+    phone: "+2349064390415",
+    user_ref: "user defined reference",
+    network: ""
+}
 
 
 function displayApiLink() {
@@ -99,6 +99,6 @@ function displayApiLink() {
     ApiLink = ApiLink.replace ("#", network)    
     ApiLink = ApiLink.replace ("#", phone)    
     ApiLink = ApiLink.replace ("#", user_ref)    
-    ApiLink = ApiLink.replace ("#", amount)    
+    ApiLink = ApiLink.replace ("#", amount0)    
 
 }
